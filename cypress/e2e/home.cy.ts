@@ -12,7 +12,7 @@ describe('homepage', () => {
     cy.visit(ROUTES.HOME)
 
     cy.get('h1.logo-font')
-      .should('contain.text', 'Titipon Tawong')
+      .should('contain.text', 'conduit')
   })
 
   it('should highlight Global Feed when home page loaded', () => {
